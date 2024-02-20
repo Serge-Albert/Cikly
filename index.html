@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button id="bud">Кнопка</button>
+    <div id="container"></div>
+
+    <script>
+        document.getElementById('bud').onclick = () => {
+            // for (let i = 0; i < 1000; i = i + 1) {
+            //     console.log(i);
+            //     document.getElementById("container").innerHTML += i + "<br>"
+            // }
+            // for (let i = 1000; i > 0; i = i - 1) {
+            //     console.log(i);
+            //     document.getElementById("container").innerHTML += i + "<br>"
+            // }
+
+            // for (let i = 0; i < 1000; i = i + 7) {
+            //     console.log(i);
+            //     document.getElementById("container").innerHTML += i + "<br>"
+            // }
+
+            // for (let i = 0; i < 1000; i = i) {
+            //     console.log(i);
+            //     document.getElementById("container").innerHTML += i + "<br>"
+            // }
+
+            // for (let i = 1; i < 1000; i = i + 2) {
+            //     console.log(i);
+            //     document.getElementById("container").innerHTML += i + "<br>"
+            // }
+
+            // for (let i = 0; i < 3; i++) {
+            //     console.log(i);
+
+            //     for (let i = 0; i < 7; i++) {
+            //         document.getElementById("container").innerHTML += "*"
+            //     }
+            //     document.getElementById("container").innerHTML += "<br>"
+            // }
+
+            for (let i = 0; i < 7; i = i++) {
+                console.log(i);
+
+                for (let i = 0; i < 1; i++) {
+                    document.getElementById("container").innerHTML += "*"
+                }
+                document.getElementById("container").innerHTML += "<br>"
+            }
+
+        }
+
+    </script>
+
+</body>
+
+</html>
